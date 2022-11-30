@@ -1,0 +1,46 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+  }
+
+  .midBlock {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+
+  
+  @media (min-width: 375px) {
+    .img-3 {
+      width: 100%;
+    }
+    .img-4 {
+      width: 100%;
+    }
+    .input-group .news-input {
+      width: 50%;
+    }
+    .headerText {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .p-5 {
+      padding: 1rem!important;
+    }
+    .lead {
+      font-size: 15px;
+    }
+    .midBlock {
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      padding: 50px 50px 0px 30px;
+    }
+    .specialText {
+      font-size: 20px;
+    }
+    .card-text {
+      font-size: 15px;
+    }
+  }
