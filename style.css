@@ -10,14 +10,19 @@ body::before {
   align-items: center;
 }
 
+.card-text {
+  font-weight: bolder;
+}
+
 .labelClass {
   padding: 10px;
   display: flex;
   align-items: center;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: bolder;
 }
 
-@media (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .img-3 {
     width: 100%;
   }
@@ -48,6 +53,7 @@ body::before {
   }
   .card-text {
     font-size: 15px;
+    font-weight: bolder;
   }
   .labelClass {
     font-size: 15px;
