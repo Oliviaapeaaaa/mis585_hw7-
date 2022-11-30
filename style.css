@@ -10,10 +10,6 @@ body::before {
   align-items: center;
 }
 
-.card-text {
-  font-weight: bolder;
-}
-
 .labelClass {
   padding: 10px;
   display: flex;
